@@ -4,5 +4,7 @@ public class Hello4 {
         System.out.println("생각보다 재밌네");
 
         System.out.println("공부 빡세게 해보자");
+
+        System.out.println("커밋할떄 잘 보고 푸위까지 하기");
     }
 }
