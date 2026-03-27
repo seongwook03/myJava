@@ -6,16 +6,15 @@ public class Exam01 {
 
         Scanner s = new Scanner(System.in);
 
-        int a;
-        int b;
-
+        int a, b;
+        double resDiv;
 
         a = s.nextInt();
         b = s.nextInt();
 
-        double result = (double) a / b;
+        resDiv = (double) a / b;
 
-        System.out.println(a + " / " + b + " = " + result);
+        System.out.println(a + " / " +  b  + " = " + resDiv);
 
         s.close();
     }
