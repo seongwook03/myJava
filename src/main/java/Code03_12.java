@@ -10,5 +10,6 @@ public class Code03_12 {
         System.out.println((num == 99) || (num == 100));
         System.out.println(!(num==100));
 
+        s.close();
     }
 }
