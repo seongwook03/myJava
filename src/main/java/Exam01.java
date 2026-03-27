@@ -16,7 +16,7 @@ public class Exam01 {
 
         System.out.println(a + " / " +  b  + " = " + resDiv);
 
-
+        s.close();
     }
 }
 
