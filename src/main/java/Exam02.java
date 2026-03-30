@@ -6,13 +6,12 @@ public class Exam02 {
 
         Scanner s = new Scanner(System.in);
 
-        String a = s.next();
-        String b = s.next();
+        String a;
+        a = s.nextLine();
 
-        String c = a + b;
 
-        String result = c.toLowerCase();
-        result = result.replaceAll(" ","");
+        String result = a.toLowerCase().replaceAll(" ","");
+
 
         System.out.println(result);
 
