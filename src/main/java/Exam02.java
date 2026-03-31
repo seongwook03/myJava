@@ -6,11 +6,10 @@ public class Exam02 {
 
         Scanner s = new Scanner(System.in);
 
-        String a;
-        a = s.nextLine();
+        String a = s.next();
+        String b = s.next();
 
-
-        String result = a.toLowerCase().replaceAll(" ","");
+        String result =(a+b).toLowerCase().replaceAll(" ","");
 
 
         System.out.println(result);
