@@ -14,5 +14,8 @@ public class Code10_02 {
 
         System.out.println("C님, 주사위를 던집니다");
         drawDice();
+
+        System.out.println("D님, 주사위를 던집니다");
+        drawDice();
     }
 }
